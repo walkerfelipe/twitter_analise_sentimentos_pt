@@ -1,0 +1,24 @@
+stan lee  ==============
+nltk_neg = 0.8337
+nltk_neu = 0.118
+nltk_pos = 0.32720000000000005
+nltk_compound = 0.0483
+subjectivy = 0.20666666666666664
+polarity = 0.16999999999999998
+polarity_neg = 0
+polarity_pos = 0.33999999999999997
+pos_ = 60.0
+neg_ = 40.0
+
+marvel  ==============
+nltk_neg = 0.6572
+nltk_neu = 0.28450000000000003
+nltk_pos = 0.40520000000000006
+nltk_compound = 0.0583
+subjectivy = 0.3687738095238095
+polarity = 0.059476190476190474
+polarity_neg = -0.10833333333333334
+polarity_pos = 0.20285714285714285
+pos_ = 50.0
+neg_ = 50.0
+

@@ -1,0 +1,61 @@
+#links de apoio
+#http://t-redactyl.io/blog/2017/04/using-vader-to-handle-sentiment-analysis-with-social-media-text.html
+#https://groups.google.com/forum/#!topic/python-brasil/4auhm-URk_k
+#https://medium.com/@viniljf/criando-um-analisador-de-sentimentos-para-tweets-a53bae0c5147
+#https://opensourceforu.com/2016/12/analysing-sentiments-nltk/
+
+##SALVANDO EM ARQUIVO 
+#print (tweets_encontrados)
+#file = open("testfile.txt","w") 
+#file.write(str(tweets_encontrados)) 
+#file.close() 
+#print ("TEXTO DO TWITTER: "+str(tweets_encontrados[0].text))
+
+## ALGUNS PRINTS ###
+#tweets_encontrados[0].created_at # data e hora do tweet 
+#tweets_encontrados[0].text # texto do twitter 
+#tweets_encontrados[0].user.screen_name # nome do usuario 
+#tweets_encontrados[0].user.name # nome @algumacoisa
+
+# imprimir texto grande 
+#tweets_encontrados[0].retweeted_status.full_text
+
+#SALVAMENTO QUE FUNCIONA. 
+#	with open("teste2.txt" , "w", encoding="utf-8") as f:
+#		f.write(str(tweets_encontrados[1]._json))
+
+# Descobrindo se é um retweet
+#i=0
+#for i in range(10):
+#   print(tweets_encontrados[i].full_text)
+#for i in range(11):
+#    print(i)
+#if 'retweeted_status' in dir(tweets_encontrados[1]):
+#   print ("é um retwit")
+#else:
+#   print (" não é ")
+
+
+
+
+#ss['neg']
+#ss['neu']
+#ss['pos']
+#ss['compound']
+
+#blob = TextBlob("A cerveja é boa. Mas a ressaca é horrível.", classifier=cl)
+#for s in blob.sentences:
+#    print("[%s] %s" % (s.classify(), s))
+# blob=TextBlob(rows[0][2],classifier=cl)
+# blob=blob.translate(to="en")
+#sentiment.polarity
+#c.execute("INSERT INTO tweets('polarity','subjectivity') VALUES('"+str(blob.sentiment.polarity)+"','"+str(blob.sentiment.subjectivity)+"')")
+
+#c.execute("UPDATE tweets SET polarity='-2' WHERE id='1057059458529062912' ")
+
+#for row in rows:
+#    print(row)
+
+
+    #quant_pos=sum(n > 0 for n in column(rows,6))
+    #quant_neg=sum(n < 0 for n in column(rows,6))
